@@ -3,7 +3,5 @@
 </script>
 
 <template>
-    <el-button type="primary">
-        hello
-    </el-button>
+    <router-view />
 </template>

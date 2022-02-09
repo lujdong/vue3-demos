@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@element-plus/icons-vue': ^0.2.7
   '@types/node': ^17.0.16
   '@typescript-eslint/eslint-plugin': ^5.10.2
   '@typescript-eslint/parser': ^5.10.2
@@ -9,6 +10,7 @@ specifiers:
   eslint: ^8.8.0
   eslint-define-config: ^1.2.4
   eslint-plugin-vue: ^8.4.1
+  normalize.css: ^8.0.1
   sass: ^1.49.7
   stylelint: ^14.3.0
   stylelint-config-recess-order: ^3.0.0
@@ -25,8 +27,10 @@ specifiers:
   vue-tsc: ^0.29.8
 
 dependencies:
+  '@element-plus/icons-vue': 0.2.7_vue@3.2.29
   '@types/node': 17.0.16
   element-plus: 2.0.1_vue@3.2.29
+  normalize.css: 8.0.1
   vue: 3.2.29
   vue-router: 4.0.12_vue@3.2.29
 
@@ -1799,6 +1803,10 @@ packages:
 
   /normalize-wheel-es/1.1.1:
     resolution: {integrity: sha512-157VNH4CngrcsvF8xOVOe22cwniIR3nxSltdctvQeHZj8JttEeOXffK28jucWfWBXs0QNetAumjc1GiInnwX4w==}
+    dev: false
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
     dev: false
 
   /object-assign/4.1.1:
