@@ -158,12 +158,9 @@ const refreshData = () => {
 
 // 删除指定条目
 const removeItem = (item: TaskInfo, index: number) => {
-    if (task.state === '0') {
-        task.data.splice(index, 1)
-    } else {
-        taskList.value.splice(index, 1)
-    }
+    taskList.value.splice(index, 1)
     storage.set('taskList', taskList.value)
+    refreshData()
 }
 
 // 切换任务状态为已完成
@@ -174,7 +171,7 @@ const completeItem = (item: TaskInfo) => {
         }
     })
     storage.set('taskList', taskList.value)
-    // refreshData()
+    refreshData()
 }
 
 </script>
